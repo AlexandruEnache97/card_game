@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 70px;
+    background-image: linear-gradient(#ca182b, 	#d23b33);
+    color: 	#fee9d2;
+}
+
+.header .title {
+    padding-left: 20px;
+}
+
+.cardsContainer {
+    display: grid;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50px 100px 100px 100px 100px 100px 100px 100px 100px 50px;
+    padding: 20px;
+    background-color: #050902;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    height: 70px;
+    background-color: #030501;
+    color: 	#fee9d2;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h3 {
+    margin-left: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cardRed {
+    background-color: #bc0e0c;
+    color: #0c0c0c;
+    border-bottom: 5px solid #5e0403;
+}
+
+.cardBlue {
+    background-color: #1965a4;
+    color: #0c0c0c;
+    border-bottom: 5px solid #093f6b;
+}
+
+.cardYellow {
+    background-color: #f7d600;
+    color: #0c0c0c;
+    border-bottom: 5px solid #a38d00;
+}
+
+.resetContainer {
+    position: absolute;
+    color: black;
+    top: 160px;
+    left: 50px;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #050902;
+    border-top: 10px solid black;
+    padding: 40px 0px;
+}
+
+
+
+.miniCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 10px 6px;
+}
+
+.pair {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 350px;
+    background-color: #dddddd;
+    border-radius: 20px;
+    border-bottom: 5px solid #adadad;
+    margin: 10px;
+}
+
+.pair img {
+    margin: 15px 10px;
+    width: 50px;
+    height: 40px;
+}
+
+.result {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 10px 6px;
+    background-color: green;
+    border-bottom: 5px solid rgb(0, 95, 0);
+}
+
+.active {
+    opacity: 30%;
+}
+
+.unactive {
+    display: none;
+}
